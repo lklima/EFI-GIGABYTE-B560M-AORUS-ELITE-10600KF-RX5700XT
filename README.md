@@ -1,30 +1,32 @@
-# Gigabyte Z690 Aorus Elite AX + i9 12900K + RX 6900 XT + Fenvi BCM94360NG
+# Gigabyte B560M Aorus Elite + i5 10600KF + RX 5700 XT + Fenvi BCM94360CD
 
-![about-12 3 1](https://user-images.githubusercontent.com/23700365/161353027-9aaeddf5-7457-49a8-b322-4e99ab94c679.png)
+ ![Screenshot 2023-03-24 at 20 10 44](https://user-images.githubusercontent.com/44346970/227660107-6bf07ca0-9b7a-4016-967d-b3c246090765.png)
 
-**Latest working macOS**: 12.4
+**Dual Boot**: Windows 11 + MacOs Ventura
 <br>
-**Current OpenCore**: 0.8.2
+**Latest working macOS**: 13.2
+<br>
+**Current OpenCore**: 0.9.0
+<br>
+**SMBios**: MacPro7,1
 
 ## Complete hardware specs
-- Intel i9 12900K @ Stock (All cores (P+E+HT) activated)
-- Gigabyte Z690 Aorus Elite AX @ BIOS F6a
-- RX 6900 XT - Nitro+ Special Edition (Sapphire - PN: PN 11308-03-20G)
-- 4x 16Gb DDR4 4133Mhz XPG D50 with XMP Enabled
-- Wifi/BT replaced by Fenvi BCM94360NG - Work OOB
+- Intel i5 10600K @ Stock (All cores (P+E+HT) activated)
+- Gigabyte B560M Aorus Elite @ BIOS F8a
+- RX 5700 XT - 8GB (Mllse - Aliexpress)
+- 2x 8Gb DDR4 3200Mhz Gloway with XMP Enabled
+- Wifi/BT Fenvi BCM94360CD - Work OOB
 
 ## What works
-- macOS Big Sur, macOS Catalina and macOS Monterey
 - Audio
-- HDMI/DP (in dGPU - Works OOB)
+- HDMI/DP
 - All USB ports
 - Everything iCloud related (Drive, iMessage, Facetime, unlock with Apple Watch, etc)
-- Temperature monitoring for everything except GPU
+- Temperature monitoring for everything including GPU
 - DRM content (Netflix, ATV+, Airplay 2 mirroring etc)
 - Shutdown/Reboot/Update to newer macOS builds over time
-
-## What doesn't work
-- Sleep? Never got the chance to test it, my hackintosh is up 24/7
+- Sleep
+- Airdrop
 
 ## Kexts used:
 - AppleALC.kext
@@ -35,16 +37,16 @@
 - USBMap.kext
 - VirtualSMC.kext
 - WhateverGreen.kext
+- XHCI-unsupported.kext
+- IntelMausi.kext
+- AppleMCEReporterDisabler.kext
 
 ## Geekbench Results:
-- https://browser.geekbench.com/v5/cpu/11647562
-- https://browser.geekbench.com/v5/compute/3921810
-- https://browser.geekbench.com/v5/compute/3921809
+- https://browser.geekbench.com/v6/cpu/669382
+- https://browser.geekbench.com/v6/compute/242268
+- https://browser.geekbench.com/v6/compute/242273
 
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
-- [BASE EFI - for 11th Intel Gen - Rocket Lake](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-11THGEN-ROCKET-LAKE)
-- tonymacx86.com - in special @etorix and @CaseySJ
-
-## Discord - Universo Hackintosh
-- [Access Discord](https://discord.universohackintosh.com.br)
+- [Gabriel Luchina - Universo Hackintosh](https://www.youtube.com/@UniversoHackintosh) - for very helpful tips
+- tonymacx86.com
