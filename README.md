@@ -1,7 +1,8 @@
 # Gigabyte B560M Aorus Elite + i5 10600KF + RX 5700 XT + Fenvi BCM94360CD
 
+<p align="center">
 <img align="center" src="https://user-images.githubusercontent.com/44346970/227660107-6bf07ca0-9b7a-4016-967d-b3c246090765.png">
-
+</p>
 **Dual Boot**: Windows 11 + MacOs Ventura
 <br>
 **Latest working macOS**: 13.2
